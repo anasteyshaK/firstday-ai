@@ -1,0 +1,155 @@
+﻿question_id,question,expected_doc_id,expected_answer,access_level,category
+Q001-1,Что разрабатывает NovaTech?,NT-001,Демонстрационную платформу OrbitFlow для автоматизации рабочих процессов.,EMPLOYEE,00_company
+Q001-2,Какие команды есть?,NT-001,"Platform, Product, Quality Engineering, SRE и People Operations.",EMPLOYEE,00_company
+Q002-1,Кто отвечает за ноутбук?,NT-002,IT Support.,EMPLOYEE,00_company
+Q002-2,Кто утверждает production-доступ?,NT-002,Владелец системы вместе с Security.,EMPLOYEE,00_company
+Q003-1,Что такое Nimbus?,NT-003,Внутренний демонстрационный портал адаптации.,EMPLOYEE,00_company
+Q003-2,Чем buddy отличается от ментора?,NT-003,"Buddy помогает с повседневной адаптацией, ментор с техническими задачами.",EMPLOYEE,00_company
+Q004-1,Куда писать о сломанной сборке?,NT-004,В инженерный канал команды и карточку задачи с логом без секретов.,EMPLOYEE,00_company
+Q004-2,Можно ли отправить токен в чат?,NT-004,"Нет, токены и пароли нельзя публиковать.",EMPLOYEE,00_company
+Q005-1,Какое демонстрационное окно совместной работы?,NT-005,10:00–16:00 Europe/Chisinau.,EMPLOYEE,00_company
+Q005-2,Заменяет ли этот документ трудовой договор?,NT-005,Нет.,EMPLOYEE,00_company
+Q006-1,Когда первый check-in с руководителем?,NT-006,На 7-й день адаптации.,EMPLOYEE,00_company
+Q006-2,Что говорить на daily?,NT-006,"Прогресс, следующий шаг и блокеры.",EMPLOYEE,00_company
+Q007-1,Что нужно до первого дня?,NT-007,"Подтвердить старт, получить план первой встречи и инструкции по оборудованию.",EMPLOYEE,01_hr
+Q007-2,Можно ли загрузить паспорт в бота?,NT-007,Нет.,EMPLOYEE,01_hr
+Q008-1,Нужен ли production-доступ в первый день?,NT-008,Нет.,EMPLOYEE,01_hr
+Q008-2,Где отмечать задачи первого дня?,NT-008,В персональном onboarding-плане Nimbus.,EMPLOYEE,01_hr
+Q009-1,Что является результатом недели 1?,NT-009,"Доступ к необходимым инструментам, базовая настройка и первый проверенный результат.",EMPLOYEE,01_hr
+Q009-2,Кого информировать о блокерах?,NT-009,Ментора и владельца onboarding-плана.,EMPLOYEE,01_hr
+Q010-1,Что происходит в дни 11–20?,NT-010,Первые небольшие задачи с ревью.,EMPLOYEE,01_hr
+Q010-2,Когда итоговая встреча?,NT-010,На 30-й день.,EMPLOYEE,01_hr
+Q011-1,Кому задать вопрос о структуре репозитория?,NT-011,Ментору.,EMPLOYEE,01_hr
+Q011-2,К кому идти с вопросом о кадровых документах?,NT-011,В People Operations.,EMPLOYEE,01_hr
+Q012-1,Может ли бот утвердить отпуск?,NT-012,"Нет, он лишь объясняет процесс и помогает создать заявку.",EMPLOYEE,01_hr
+Q012-2,Где согласуют отсутствие?,NT-012,В HR-портале через руководителя.,EMPLOYEE,01_hr
+Q013-1,В какие дни check-in?,NT-013,"7, 14 и 30.",EMPLOYEE,01_hr
+Q013-2,О чём спрашивают на check-in?,NT-013,"О прогрессе, препятствиях и качестве адаптации.",EMPLOYEE,01_hr
+Q014-1,Могу ли я отключить шифрование?,NT-014,Нет.,EMPLOYEE,02_it_support
+Q014-2,Кто выдаёт ноутбук?,NT-014,IT Support.,EMPLOYEE,02_it_support
+Q015-1,Нужно ли MFA?,NT-015,"Да, для корпоративного SSO.",EMPLOYEE,02_it_support
+Q015-2,Куда положить резервные коды?,NT-015,В утверждённый менеджер паролей.,EMPLOYEE,02_it_support
+Q016-1,Где взять VPN-профиль?,NT-016,У IT Support через защищённый канал.,EMPLOYEE,02_it_support
+Q016-2,Можно ли запросить ключ в AI-чате?,NT-016,Нет.,EMPLOYEE,02_it_support
+Q017-1,Можно ли хранить API key в .env в публичном GitHub?,NT-017,Нет.,EMPLOYEE,02_it_support
+Q017-2,Что делать при утечке токена?,NT-017,Немедленно отозвать/заменить токен и сообщить Security.,EMPLOYEE,02_it_support
+Q018-1,Можно ли ставить любое ПО?,NT-018,"Нет, нужно проверить каталог.",EMPLOYEE,02_it_support
+Q018-2,Кому писать про лицензию IDE?,NT-018,IT Support.,EMPLOYEE,02_it_support
+Q019-1,Может ли AI сам выдать доступ?,NT-019,"Нет, только создать заявку.",EMPLOYEE,02_it_support
+Q019-2,Какие статусы заявки?,NT-019,"Pending, Approved, Rejected.",EMPLOYEE,02_it_support
+Q020-1,Как получить GitHub?,NT-020,Создать заявку GitHub Access и пройти одобрение владельца.,EMPLOYEE,02_it_support
+Q020-2,Получает ли новичок права admin?,NT-020,Нет.,EMPLOYEE,02_it_support
+Q021-1,Что добавить в сетевой тикет?,NT-021,"Время, ОС, симптом и обезличенный лог.",EMPLOYEE,02_it_support
+Q021-2,Можно ли отключить firewall?,NT-021,"Нет, без разрешения IT Support.",EMPLOYEE,02_it_support
+Q022-1,Можно ли загружать реальные клиентские логи в публичный AI?,NT-022,Нет.,EMPLOYEE,03_security
+Q022-2,Что делать при потере ноутбука?,NT-022,Сразу сообщить Security и IT Support.,EMPLOYEE,03_security
+Q023-1,Можно ли фильтровать документы после ответа модели?,NT-023,"Нет, фильтр нужен до retrieval.",EMPLOYEE,03_security
+Q023-2,Видит ли Employee HR документы?,NT-023,"Нет, кроме явно разрешённых общих материалов.",EMPLOYEE,03_security
+Q024-1,Что делать с подозрительным письмом?,NT-024,Сообщить через Report Phishing.,EMPLOYEE,03_security
+Q024-2,Можно ли сообщать MFA-код IT Support?,NT-024,Нет.,EMPLOYEE,03_security
+Q025-1,Какая категория заявки при утечке секретов?,NT-025,Security Incident.,EMPLOYEE,03_security
+Q025-2,Нужно ли сразу ротировать раскрытый токен?,NT-025,Да.,EMPLOYEE,03_security
+Q026-1,Можно ли получить production admin по умолчанию?,NT-026,Нет.,EMPLOYEE,03_security
+Q026-2,Что лучше запросить для просмотра метрик?,NT-026,Минимальную read-only роль.,EMPLOYEE,03_security
+Q027-1,Можно ли пушить в main напрямую?,NT-027,Нет.,EMPLOYEE,04_engineering
+Q027-2,Что необходимо до merge?,NT-027,Проверки CI и code review.,EMPLOYEE,04_engineering
+Q028-1,Как назвать ветку для исправления?,NT-028,fix/ISSUE-short-name.,EMPLOYEE,04_engineering
+Q028-2,Можно ли коммитить пароль?,NT-028,Нет.,EMPLOYEE,04_engineering
+Q029-1,Что писать в PR?,NT-029,"Цель, изменения, проверки, риски и ссылку на задачу.",EMPLOYEE,04_engineering
+Q029-2,Кто исправляет упавший CI?,NT-029,Автор PR.,EMPLOYEE,04_engineering
+Q030-1,Как давать замечание?,NT-030,"Конкретно, уважительно, с объяснением риска.",EMPLOYEE,04_engineering
+Q030-2,Что делать при споре?,NT-030,Обратиться к ментору или владельцу компонента.,EMPLOYEE,04_engineering
+Q031-1,Какой JDK используется в учебном backend?,NT-031,Java 21.,EMPLOYEE,04_engineering
+Q031-2,Где брать актуальные команды запуска?,NT-031,В README конкретного сервиса.,EMPLOYEE,04_engineering
+Q032-1,Какой endpoint обычно проверяют?,NT-032,"/actuator/health, если включён для сервиса.",EMPLOYEE,04_engineering
+Q032-2,Нужно ли брать production-секреты?,NT-032,Нет.,EMPLOYEE,04_engineering
+Q033-1,Какой код для успешного создания?,NT-033,201 Created.,EMPLOYEE,04_engineering
+Q033-2,Какой код для удаления без тела?,NT-033,204 No Content.,EMPLOYEE,04_engineering
+Q034-1,Можно ли править production таблицы вручную?,NT-034,Нет.,EMPLOYEE,04_engineering
+Q034-2,Что проверять перед merge миграции?,NT-034,Повторяемость и совместимость со старой схемой.,EMPLOYEE,04_engineering
+Q035-1,Что тестируют integration tests?,NT-035,"Взаимодействие компонентов, например API и БД.",EMPLOYEE,04_engineering
+Q035-2,Заменяют ли E2E unit tests?,NT-035,Нет.,EMPLOYEE,04_engineering
+Q036-1,Что нельзя логировать?,NT-036,"Пароли, JWT, cookies и персональные данные.",EMPLOYEE,04_engineering
+Q036-2,Для чего correlation_id?,NT-036,Чтобы связать события одного запроса.,EMPLOYEE,04_engineering
+Q037-1,Где найти владельца сервиса?,NT-037,"В каталоге Atlas, поле owner team.",EMPLOYEE,04_engineering
+Q037-2,Какие сервисы OrbitFlow есть в учебнике?,NT-037,"gateway, identity, workflow, notification, audit.",EMPLOYEE,04_engineering
+Q038-1,Зачем feature flag?,NT-038,Для контролируемого включения функциональности.,EMPLOYEE,04_engineering
+Q038-2,Можно ли им заменить RBAC?,NT-038,Нет.,EMPLOYEE,04_engineering
+Q039-1,Какая цель первой недели QA?,NT-039,Воспроизводимый баг-репорт или тест-кейс.,EMPLOYEE,05_qa
+Q039-2,Можно ли брать реальные данные пользователей?,NT-039,Нет.,EMPLOYEE,05_qa
+Q040-1,Что обязательно в баг-репорте?,NT-040,"Шаги, environment, expected/actual, severity.",EMPLOYEE,05_qa
+Q040-2,Можно ли приложить секреты?,NT-040,Нет.,EMPLOYEE,05_qa
+Q041-1,Какие негативные коды проверять?,NT-041,"400, 401, 403, 404 по ситуации.",EMPLOYEE,05_qa
+Q041-2,Какие данные использовать?,NT-041,Синтетические.,EMPLOYEE,05_qa
+Q042-1,Можно ли использовать production персональные данные?,NT-042,Нет.,EMPLOYEE,05_qa
+Q042-2,Почему нужны уникальные ID?,NT-042,Чтобы тесты не конфликтовали.,EMPLOYEE,05_qa
+Q043-1,Что лучше sleep?,NT-043,Явные ожидания WebDriverWait.,EMPLOYEE,05_qa
+Q043-2,Что сохранять при падении?,NT-043,Лог и скриншот без чувствительных данных.,EMPLOYEE,05_qa
+Q044-1,Какая первая роль доступа к мониторингу?,NT-044,Read-only.,EMPLOYEE,06_devops
+Q044-2,Можно ли сразу менять production?,NT-044,Нет.,EMPLOYEE,06_devops
+Q045-1,Для чего staging?,NT-045,Для проверки изменений до production.,EMPLOYEE,06_devops
+Q045-2,Можно ли использовать production credentials в dev?,NT-045,Нет.,EMPLOYEE,06_devops
+Q046-1,Удаляет ли docker compose stop базу?,NT-046,Нет.,EMPLOYEE,06_devops
+Q046-2,Что может удалить volumes?,NT-046,docker compose down -v.,EMPLOYEE,06_devops
+Q047-1,Что означает CI?,NT-047,Автоматические проверки изменений.,EMPLOYEE,06_devops
+Q047-2,Что делать при красном job?,NT-047,Читать первый упавший шаг и его лог.,EMPLOYEE,06_devops
+Q048-1,Какие метрики важны?,NT-048,"Error rate, latency и saturation.",EMPLOYEE,06_devops
+Q048-2,Где найти dashboard?,NT-048,Через Atlas.,EMPLOYEE,06_devops
+Q049-1,Должен ли новичок дежурить самостоятельно в первую неделю?,NT-049,Нет.,EMPLOYEE,06_devops
+Q049-2,Что фиксировать при инциденте?,NT-049,"Время, влияние, действия, результат.",EMPLOYEE,06_devops
+Q050-1,Что нужно для безопасного отката?,NT-050,Проверенная процедура и наблюдение за метриками.,EMPLOYEE,06_devops
+Q050-2,Можно ли вручную править production DB?,NT-050,Нет.,EMPLOYEE,06_devops
+Q051-1,Для чего OrbitFlow?,NT-051,Для организации и автоматизации рабочих процессов.,EMPLOYEE,07_product
+Q051-2,Что такое workflow?,NT-051,Последовательность шагов с условиями и исполнителями.,EMPLOYEE,07_product
+Q052-1,Может ли Viewer создавать workflow?,NT-052,Нет.,EMPLOYEE,07_product
+Q052-2,Равны ли роли OrbitFlow и FirstDay AI?,NT-052,Нет.,EMPLOYEE,07_product
+Q053-1,Какие состояния у task?,NT-053,"Draft, Active, Blocked, Completed, Cancelled.",EMPLOYEE,07_product
+Q053-2,Можно ли напрямую вернуть Completed в Draft?,NT-053,"Нет, не обычным действием.",EMPLOYEE,07_product
+Q054-1,Что изучать во вторую неделю Java?,NT-054,"REST, DTO и валидацию.",EMPLOYEE,08_learning
+Q054-2,Что показать на 30-й день?,NT-054,Проверенный PR и демо.,EMPLOYEE,08_learning
+Q055-1,Когда QA начинает автоматизацию?,NT-055,На третьей неделе учебного трека.,EMPLOYEE,08_learning
+Q055-2,Что показать на 30-й день?,NT-055,Стабильные тесты и результаты CI.,EMPLOYEE,08_learning
+Q056-1,Какие темы недели 2?,NT-056,CI/CD и GitHub Actions.,EMPLOYEE,08_learning
+Q056-2,Что в конце трека?,NT-056,Учебный инцидент и улучшение мониторинга.,EMPLOYEE,08_learning
+Q057-1,Используется ли тест как HR-решение?,NT-057,Нет.,EMPLOYEE,08_learning
+Q057-2,Откуда берутся вопросы?,NT-057,Из доступных учебных документов.,EMPLOYEE,08_learning
+Q058-1,Какой срок первого ответа по обычной заявке?,NT-058,В течение одного рабочего дня в учебной политике.,EMPLOYEE,09_support
+Q058-2,Что выбрать для запроса IDE?,NT-058,Software Request.,EMPLOYEE,09_support
+Q059-1,Approved значит доступ уже выдан?,NT-059,Не обязательно; нужен Fulfilled.,EMPLOYEE,09_support
+Q059-2,Где следить за обращением?,NT-059,В Nimbus по номеру заявки.,EMPLOYEE,09_support
+Q060-1,Как обновляется RAG после исправления документа?,NT-060,Новая версия переиндексируется.,EMPLOYEE,09_support
+Q060-2,Может ли бот сам переписать политику?,NT-060,"Нет, требуется владелец документа.",EMPLOYEE,09_support
+Q061-1,Как запросить доступ к GitHub?,NT-061,Через Nimbus Access Request.,EMPLOYEE,09_support
+Q061-2,Кто объяснит структуру проекта?,NT-061,Ментор или owner сервиса в Atlas.,EMPLOYEE,09_support
+Q062-1,Что делать с обновлённым документом?,NT-062,Пересоздать его чанки и embeddings без дубликатов.,ADMIN,10_admin
+Q062-2,Кто задаёт access_level?,NT-062,Администратор по правилам Security.,ADMIN,10_admin
+Q063-1,Как проверить отсутствие галлюцинаций?,NT-063,Сверять факты ответа с найденными источниками и тестировать отказ.,ADMIN,10_admin
+Q063-2,Что измеряет recall@k?,NT-063,Наличие нужного документа среди первых k результатов.,ADMIN,10_admin
+Q064-1,Может ли Employee читать HR-only материалы?,NT-064,Нет.,ADMIN,10_admin
+Q064-2,Где проверять роль?,NT-064,На сервере до выдачи данных.,ADMIN,10_admin
+Q065-1,Что отслеживает HR?,NT-065,"План, блокеры и даты check-in.",HR,10_admin
+Q065-2,Видит ли HR все приватные сообщения по умолчанию?,NT-065,Нет.,HR,10_admin
+Q066-1,Что писать в аудит?,NT-066,"Кто, когда, что изменил и над каким объектом.",ADMIN,10_admin
+Q066-2,Можно ли логировать пароль?,NT-066,Нет.,ADMIN,10_admin
+Q067-1,Какие документы искать RAG?,NT-067,Только актуальные Published и разрешённые пользователю.,ADMIN,10_admin
+Q067-2,Что делать со старой инструкцией?,NT-067,Архивировать.,ADMIN,10_admin
+Q068-1,Что означает connection refused?,NT-068,Соединение до сервера не установлено.,EMPLOYEE,11_incidents
+Q068-2,Какой первый шаг?,NT-068,Проверить доступность и health БД.,EMPLOYEE,11_incidents
+Q069-1,Всегда ли нужно увеличить pool size?,NT-069,Нет.,EMPLOYEE,11_incidents
+Q069-2,Что может вызвать timeout?,NT-069,"Нехватка соединений, долгие транзакции и утечки.",EMPLOYEE,11_incidents
+Q070-1,Что делает setup-python?,NT-070,Настраивает выбранную версию Python для workflow.,EMPLOYEE,11_incidents
+Q070-2,Почему localhost не виден на hosted runner?,NT-070,"Он относится к машине runner, а не к пользовательскому ПК.",EMPLOYEE,11_incidents
+Q071-1,Почему pgAdmin постоянно перезапускается?,NT-071,Одна из причин — невалидный PGADMIN_DEFAULT_EMAIL.,EMPLOYEE,11_incidents
+Q071-2,Нужно ли удалять PostgreSQL?,NT-071,Нет.,EMPLOYEE,11_incidents
+Q072-1,Может ли бот сбросить MFA?,NT-072,Нет.,EMPLOYEE,11_incidents
+Q072-2,К кому обратиться?,NT-072,IT Support через Account Recovery.,EMPLOYEE,11_incidents
+Q073-1,Гарантирует ли 500 ошибку БД?,NT-073,Нет.,EMPLOYEE,11_incidents
+Q073-2,С чего начать расследование?,NT-073,С корреляционного ID и временной отметки.,EMPLOYEE,11_incidents
+Q074-1,Достаточно ли написать код для Done?,NT-074,Нет.,EMPLOYEE,12_process
+Q074-2,Что нужно помимо кода?,NT-074,"Проверки, документация и ревью.",EMPLOYEE,12_process
+Q075-1,Что делать при неясных требованиях?,NT-075,Провести refinement.,EMPLOYEE,12_process
+Q075-2,Что включать в оценку?,NT-075,"Разработку, тесты, ревью и риски.",EMPLOYEE,12_process
+Q076-1,Что нужно у документа?,NT-076,"Owner, аудитория, шаги, обновление и проверка.",EMPLOYEE,12_process
+Q076-2,Можно ли публиковать пароль?,NT-076,Нет.,EMPLOYEE,12_process
+Q077-1,Какая хорошая первая задача?,NT-077,Небольшое безопасное изменение с тестом.,EMPLOYEE,12_process
+Q077-2,Нужен ли PR?,NT-077,"Да, для инженерного изменения.",EMPLOYEE,12_process
