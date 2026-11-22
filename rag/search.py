@@ -18,6 +18,9 @@ import json
 import os
 import re
 import sys
+from pathlib import Path
+
+from dotenv import load_dotenv
 
 from collections import defaultdict
 from urllib.error import HTTPError, URLError
@@ -31,6 +34,8 @@ from query_policy import stack_question, technology_evidence
 # ============================================================
 # CONFIGURATION
 # ============================================================
+
+load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=False)
 
 DB_CONFIG = {
     "host": os.getenv("DB_HOST", "localhost"),

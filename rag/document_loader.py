@@ -8,10 +8,12 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError
 
 import psycopg2
+from dotenv import load_dotenv
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 KNOWLEDGE_BASE = PROJECT_ROOT / "knowledge_base"
+load_dotenv(PROJECT_ROOT / ".env", override=False)
 
 DB_CONFIG = {
     "host": os.getenv("DB_HOST", "localhost"),
