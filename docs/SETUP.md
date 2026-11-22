@@ -22,6 +22,8 @@ Copy-Item .env.example .env
 
 Edit `.env` locally and replace **both** password placeholders: `DB_PASSWORD` and `PGADMIN_PASSWORD`. Never commit this file. If you already have a configured `.env`, keep it and add the missing settings instead of replacing it. For an existing database, retain its current database password.
 
+After changing `.env`, fully stop and restart the API process. The running Uvicorn reload process can retain the environment loaded at startup; a successful health response alone does not confirm database connectivity. Changing this local file does not require deleting data or recreating database volumes.
+
 The defaults use PostgreSQL on port `5434`, Ollama on port `11434`, the `qwen3:1.7b` chat model, and `nomic-embed-text` embeddings. To use another installed chat model, update `CHAT_MODEL`.
 
 ```powershell
