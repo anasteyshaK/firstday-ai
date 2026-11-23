@@ -5,6 +5,10 @@
 <p align="center"><strong>Employee onboarding, project knowledge, and a clear next step — in one workspace.</strong></p>
 
 <p align="center">
+  <a href="https://github.com/anasteyshaK/firstday-ai/actions/workflows/ci.yml"><img src="https://github.com/anasteyshaK/firstday-ai/actions/workflows/ci.yml/badge.svg?branch=main" alt="Tests and build"></a>
+</p>
+
+<p align="center">
   <a href="#product-tour">Product tour</a> ·
   <a href="#features">Features</a> ·
   <a href="#architecture">Architecture</a> ·
@@ -141,6 +145,12 @@ See [Project Onboarding](docs/PROJECT_ONBOARDING.md) for the project access mode
 
 The repository includes checks for authorization, project isolation, conversation history, retrieval, documented facts, and refusal behavior when evidence is missing.
 
+**Published local pytest run — 23 November 2026: 228 passed, 0 failed, 0 errors, 0 skipped.**
+
+Read the **[testing overview](docs/testing/README.md)** for the test inventory, dated [run summary](docs/testing/results/pytest_2026-11-23.md), [full output](docs/testing/results/pytest_2026-11-23.txt), and [JUnit XML](docs/testing/results/pytest_2026-11-23.xml).
+
+The [GitHub Actions workflow](https://github.com/anasteyshaK/firstday-ai/actions/workflows/ci.yml) runs pytest and the frontend build on pushes and pull requests. Every run provides a test summary and downloadable JUnit/text artifacts. Live database and Ollama checks remain a separate local verification layer.
+
 ```powershell
 # Unit and API tests
 .\venv\Scripts\python.exe -m pytest tests -q
@@ -158,7 +168,7 @@ The repository includes checks for authorization, project isolation, conversatio
 npm --prefix frontend run build
 ```
 
-Evaluation outputs remain local under `reports/`. Source selection and answer scenario checks assess specific behaviors; they do not establish a universal accuracy score. Read [Answer Quality](docs/ANSWER_QUALITY.md) for evaluation scope and limitations.
+Routine evaluation outputs remain local under `reports/`; the reviewed pytest snapshot is published under `docs/testing/results/`. Source selection and answer scenario checks assess specific behaviors; they do not establish a universal accuracy score. Read [Answer Quality](docs/ANSWER_QUALITY.md) for evaluation scope and limitations.
 
 ## Repository layout
 

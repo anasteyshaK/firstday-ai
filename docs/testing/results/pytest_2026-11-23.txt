@@ -1,0 +1,22 @@
+........................................................................ [ 31%]
+........................................................................ [ 63%]
+........................................................................ [ 94%]
+............                                                             [100%]
+============================== warnings summary ===============================
+venv\Lib\site-packages\fastapi\testclient.py:1
+  venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+============================ slowest 10 durations =============================
+0.04s call     tests/test_project_assignments.py::test_assignment_routes_require_admin[get-/api/v1/admin/projects-None]
+0.04s call     tests/test_project_onboarding.py::test_project_routes_require_authentication
+0.02s setup    tests/test_project_assignments.py::test_assignment_routes_require_admin[get-/api/v1/admin/projects-None]
+0.02s call     tests/test_project_onboarding.py::test_project_chat_stream_keeps_ndjson_contract
+0.01s call     tests/test_answer_quality.py::test_first_contribution_procedure_does_not_claim_completion
+0.01s call     tests/test_project_onboarding.py::test_cannot_self_join_private_project
+0.01s call     tests/test_answer_quality.py::test_project_followup_keeps_document_topic
+0.01s call     tests/test_project_onboarding.py::test_project_document_view_rejects_nonmember
+0.01s call     tests/test_project_onboarding.py::test_task_update_scopes_project_and_employee
+0.01s call     tests/test_project_onboarding.py::test_chat_validates_membership_before_personal_answers
+228 passed, 1 warning in 2.96s
